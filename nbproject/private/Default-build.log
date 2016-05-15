@@ -1,0 +1,8 @@
+pod2man -c "" -r "" xdotool.pod > xdotool.1
+sh version.sh --header > xdo_version.h
+cc -pipe -O2 -pedantic -Wall -W -Wundef -Wendif-labels -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-align -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wdisabled-optimization -Wno-missing-field-initializers -g   -std=c99 -I/usr/X11R6/include -I/usr/local/include -fPIC -c xdo.c
+xdo.c:29:34: fatal error: X11/extensions/XTest.h: No such file or directory
+ #include <X11/extensions/XTest.h>
+                                  ^
+compilation terminated.
+make: *** [xdo.o] Error 1

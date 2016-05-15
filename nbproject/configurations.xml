@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="examples">
+        <in>thread.c</in>
+      </df>
+      <in>cmd_behave.c</in>
+      <in>cmd_behave_screen_edge.c</in>
+      <in>cmd_click.c</in>
+      <in>cmd_exec.c</in>
+      <in>cmd_get_desktop.c</in>
+      <in>cmd_get_desktop_for_window.c</in>
+      <in>cmd_get_desktop_viewport.c</in>
+      <in>cmd_get_display_geometry.c</in>
+      <in>cmd_get_num_desktops.c</in>
+      <in>cmd_getactivewindow.c</in>
+      <in>cmd_getmouselocation.c</in>
+      <in>cmd_getwindowfocus.c</in>
+      <in>cmd_getwindowgeometry.c</in>
+      <in>cmd_getwindowname.c</in>
+      <in>cmd_getwindowpid.c</in>
+      <in>cmd_key.c</in>
+      <in>cmd_mousedown.c</in>
+      <in>cmd_mousemove.c</in>
+      <in>cmd_mousemove_relative.c</in>
+      <in>cmd_mouseup.c</in>
+      <in>cmd_search.c</in>
+      <in>cmd_set_desktop.c</in>
+      <in>cmd_set_desktop_for_window.c</in>
+      <in>cmd_set_desktop_viewport.c</in>
+      <in>cmd_set_num_desktops.c</in>
+      <in>cmd_set_window.c</in>
+      <in>cmd_sleep.c</in>
+      <in>cmd_type.c</in>
+      <in>cmd_window_select.c</in>
+      <in>cmd_windowactivate.c</in>
+      <in>cmd_windowclose.c</in>
+      <in>cmd_windowfocus.c</in>
+      <in>cmd_windowkill.c</in>
+      <in>cmd_windowmap.c</in>
+      <in>cmd_windowminimize.c</in>
+      <in>cmd_windowmove.c</in>
+      <in>cmd_windowraise.c</in>
+      <in>cmd_windowreparent.c</in>
+      <in>cmd_windowsize.c</in>
+      <in>cmd_windowunmap.c</in>
+      <in>queue.c</in>
+      <in>queue.h</in>
+      <in>server.c</in>
+      <in>string_utils.h</in>
+      <in>xdo.c</in>
+      <in>xdo_search.c</in>
+      <in>xdotool.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O2 -g -std=c99"/>
+        <element flagsID="1" commonFlags="-O2 -g -std=c99 -fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>server</executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="cmd_behave.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_behave_screen_edge.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_click.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_exec.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_get_desktop.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_get_desktop_for_window.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_get_desktop_viewport.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_get_display_geometry.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_get_num_desktops.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_getactivewindow.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_getmouselocation.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_getwindowfocus.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_getwindowgeometry.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_getwindowname.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_getwindowpid.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_key.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_mousedown.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_mousemove.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_mousemove_relative.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_mouseup.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_search.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_set_desktop.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_set_desktop_for_window.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_set_desktop_viewport.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_set_num_desktops.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_set_window.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_sleep.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_type.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_window_select.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowactivate.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowclose.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowfocus.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowkill.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowmap.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowminimize.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowmove.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowraise.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowreparent.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowsize.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cmd_windowunmap.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="examples/thread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="queue.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="server.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="string_utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="xdo.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="xdo_search.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="xdotool.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
